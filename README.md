@@ -25,15 +25,15 @@ json
     "add": "pcpl"
 }
 ```
-## Get Subjects
+### 2. Get Students
 
 **Endpoint:**  
-**GET** `localhost:8080/getsubjects`
+**GET** `localhost:8080/getstudents`
 
 **Description:**  
-Fetch the list of all subjects.
+Fetch the list of all students.
 
-## Create Subject
+### 3. Create Subject
 
 **Endpoint:**  
 **POST** `localhost:8080/createsubject`
@@ -47,8 +47,15 @@ Create a new subject record.
     "name": "math"
 }
 ```
+### 4. Get Subjects
 
-## Register User
+**Endpoint:**  
+**GET** `localhost:8080/getsubjects`
+
+**Description:**  
+Fetch the list of all subjects.
+
+### 5. Register User
 
 **Endpoint:**  
 **POST** `localhost:8080/register`
